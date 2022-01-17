@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  background-color: #141414;
+  color: #f9f9f9;
+}
+
+.mainmenubtn {
+  background-color: skyblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+  margin-top: 20px;
+}
+.mainmenubtn:hover {
+  background-color: blue;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-child {
+  display: none;
+  background-color: skyblue;
+  min-width: 200px;
+}
+.dropdown-child a {
+  color: blue;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0, auto;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3em;
+}
+label {
+  font-size: 1.5em;
+}
+
+.btn {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  align-items: center;
+  background-color: skyblue;
+  border-color: whitesmoke;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background: #000000;
+  padding: 20px 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2em;
+  position: absolute;
+}
+
+.rodape {
+  color: #ffffff;
+  font-size: 1em;
+  margin: 20px 0 0;
+}
+.redes {
+  display: flex;
+  justify-content: center;
+}
+.redes img {
+  height: 50px;
+  margin: 10px 10px;
+}
